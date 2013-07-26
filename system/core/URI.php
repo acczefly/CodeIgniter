@@ -198,7 +198,7 @@ class CI_URI {
 		{
 			$uri = substr($uri, 2);
 		}
-        $parts = explode('?', $uri, 2);
+		$parts = explode('?', $uri, 2);
 		$uri = $parts[0];
 		if (isset($parts[1]))
 		{
